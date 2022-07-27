@@ -69,12 +69,62 @@ button {
 
 .navbar {
     text-align: right;
+    width: auto;
+    height: 100px;
+    background-color: #FBFBF6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-nav {
+    margin-left: 180px;
+}
+
+.logo {
+    width: 44px;
+    height: auto;
+    margin: 40px 25px;
+}
+
+.nav-button {
+    width: 44px;
+    height: 44px;
+    background-color: #B1C0C7;
+    margin: 40px 25px;
+}
+
+.nav-button.square {
+    background-color: #C8DDF0;
+}
+
+.nav-button.circle {
+    background-color: #F3E1A1;
+    border-radius: 50%;
+}
+
+.nav-button.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 44px solid #C4DBA3;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    background-color: transparent;
+    margin-right: 100px;
 }
 
 .welcome-pg {
     display: flex;
     flex-direction: column;
-    margin: 150px 0;
+    margin: 220px 0 120px 0;
 }
 
 .about-me-pg,
