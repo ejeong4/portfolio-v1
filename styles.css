@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Bathilda";
+    src: url(fonts/Bathilda.otf);
+}
+
+@font-face {
+    font-family: "Glacial";
+    src: url(fonts/GlacialIndifference-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAF5;
+}
+
+h1 {
+    margin: 0 auto -30px auto;
+    font-family: "Bathilda", serif;
+    font-size: 108px;
+    text-transform: lowercase;
+    color: #B0DAF1;
+    font-weight: 100;
+}
+
+h3 {
+    margin: 20px auto 60px auto;
+    font-family: "Glacial", serif;
+    font-size: 24px;
+    text-transform: lowercase;
+    color: #9CBAC1;
+}
+
+p {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Glacial", serif;
+    font-size: 18px;
+    color: #9CBAC1;
+    margin-bottom: 20px;
+}
+
+img {
+    height: auto;
+    width: 104px;
+    margin: 0 auto;
+}
+
+button {
+    margin: 0 auto;
+    width: 130px;
+    height: 60px;
+    border: 4px solid #9CBAC1;
+    background-color: #E0F1D6;
+    border-radius: 30px;
+}
+
+.welcome-subtitle {
+    margin: 0 auto 20px auto;
+}
+
+.navbar {
+    text-align: right;
+}
+
+.welcome-pg,
+.about-me-pg,
+.projects-pg,
+.art-pg {
+    display: flex;
+    flex-direction: column;
+    margin: 150px 0;
+}
+
+.projects-display,
+.art-display {
+    display: flex;
+    flex-direction: row;
+}
+
+.project {
+    width: 300px;
+    height: 300px;
+    background-color: #FFECBF;
+    border: 4px solid #9CBAC1;
+    border-radius: 40px;
+    box-shadow: 0 20px #EAEAE5;
+}
+
+.art {
+    width: 250px;
+    height: 250px;
+    background-color: #E0F1D6;
+    border: 4px solid #9CBAC1;
+    border-radius: 40px;
+    box-shadow: 0 20px #EAEAE5;
+    margin: 0 10px 80px 10px;
+}
+
+.project.right {
+    margin: 0 auto 0 15px;
+}
+
+.project.left {
+    margin: 0 15px 0 auto;
+}
+
+.art.left {
+    margin-left: auto;
+}
+
+.art.right {
+    margin-right: auto;
+}
+
+.more {
+    font-family: "Glacial", serif;
+    font-size: 24px;
+    text-transform: lowercase;
+    color: #9CBAC1;
+}
+
+.contact-pg {
+    margin: 60px auto;
+    text-align: center;
+    width: 1300px;
+    height: 200px;
+    border: 4px solid #9CBAC1;
+    background-color: #D8EDF8;
+    border-radius: 50px;
+}
