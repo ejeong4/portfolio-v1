@@ -17,7 +17,6 @@
 body {
     display: flex;
     flex-direction: column;
-    /* background-color: #FAFAF5; */
     background-color: #FBFBF6;
 }
 
@@ -25,8 +24,6 @@ h1 {
     margin: 0 auto -50px auto;
     font-family: "Bathilda", serif;
     font-size: 108px;
-    /* text-transform: lowercase; */
-    /* color: #B0DAF1; */
     color: #C8DDF0;
     font-weight: 100;
 }
@@ -38,7 +35,6 @@ h3 {
     font-size: 28px;
     text-transform: lowercase;
     color: #B1C0C7;
-    /* color: #9CBAC1; */
 }
 
 p {
@@ -48,7 +44,6 @@ p {
     font-family: "Glacial", serif;
     font-size: 22px;
     color: #B1C0C7;
-    /* color: #9CBAC1; */
     margin-bottom: 20px;
 }
 
@@ -70,20 +65,24 @@ button {
 .welcome-subtitle {
     margin: 0 auto 15px auto;
     font-size: 24px;
-    /* color: #b3c7cc; */
 }
 
 .navbar {
     text-align: right;
 }
 
-.welcome-pg,
+.welcome-pg {
+    display: flex;
+    flex-direction: column;
+    margin: 150px 0;
+}
+
 .about-me-pg,
 .projects-pg,
 .art-pg {
     display: flex;
     flex-direction: column;
-    margin: 150px 0;
+    margin: 100px 0;
 }
 
 .projects-display,
