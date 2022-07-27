@@ -17,24 +17,28 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #FAFAF5;
+    /* background-color: #FAFAF5; */
+    background-color: #FBFBF6;
 }
 
 h1 {
-    margin: 0 auto -30px auto;
+    margin: 0 auto -50px auto;
     font-family: "Bathilda", serif;
     font-size: 108px;
-    text-transform: lowercase;
-    color: #B0DAF1;
+    /* text-transform: lowercase; */
+    /* color: #B0DAF1; */
+    color: #C8DDF0;
     font-weight: 100;
 }
 
 h3 {
+    font-weight: 100;
     margin: 20px auto 40px auto;
     font-family: "Glacial", serif;
     font-size: 28px;
     text-transform: lowercase;
-    color: #9CBAC1;
+    color: #B1C0C7;
+    /* color: #9CBAC1; */
 }
 
 p {
@@ -43,13 +47,14 @@ p {
     margin: 0 auto;
     font-family: "Glacial", serif;
     font-size: 22px;
-    color: #9CBAC1;
+    color: #B1C0C7;
+    /* color: #9CBAC1; */
     margin-bottom: 20px;
 }
 
 img {
     height: auto;
-    width: 104px;
+    width: 120px;
     margin: 0 auto;
 }
 
@@ -57,14 +62,15 @@ button {
     margin: 0 auto;
     width: 130px;
     height: 60px;
-    border: 4px solid #9CBAC1;
-    background-color: #E0F1D6;
+    border: 4px solid #B1C0C7;
+    background-color: #E9F2DE;
     border-radius: 30px;
 }
 
 .welcome-subtitle {
-    margin: 0 auto 30px auto;
+    margin: 0 auto 15px auto;
     font-size: 24px;
+    /* color: #b3c7cc; */
 }
 
 .navbar {
@@ -89,19 +95,19 @@ button {
 .project {
     width: 300px;
     height: 300px;
-    background-color: #FFECBF;
-    border: 4px solid #9CBAC1;
+    background-color: #F9F0CC;
+    border: 4px solid #B1C0C7;
     border-radius: 40px;
-    box-shadow: 0 20px #EAEAE5;
+    box-shadow: 0 20px #EDEDE8;
 }
 
 .art {
     width: 250px;
     height: 250px;
-    background-color: #E0F1D6;
-    border: 4px solid #9CBAC1;
+    background-color: #E9F2DE;
+    border: 4px solid #B1C0C7;
     border-radius: 40px;
-    box-shadow: 0 20px #EAEAE5;
+    box-shadow: 0 20px #EDEDE8;
     margin: 0 10px 80px 10px;
 }
 
@@ -125,7 +131,7 @@ button {
     font-family: "Glacial", serif;
     font-size: 24px;
     text-transform: lowercase;
-    color: #9CBAC1;
+    color: #B1C0C7;
 }
 
 .contact-pg {
@@ -133,8 +139,8 @@ button {
     text-align: center;
     width: 90%;
     height: 200px;
-    border: 4px solid #9CBAC1;
-    background-color: #D8EDF8;
+    border: 4px solid #B1C0C7;
+    background-color: #E4EFF8;
     border-radius: 50px;
 }
 
