@@ -1,6 +1,13 @@
 const artBlock = document.querySelectorAll('.art');
 const projectBlock = document.querySelectorAll('.project');
 const moreBtn = document.querySelector('#more-button');
+const navBtn = document.querySelectorAll('div.nav-button');
+
+
+navBtn.forEach((btn) => btn.addEventListener('mouseover', () => btn.classList.add('nav-hover')));
+navBtn.forEach((btn) => btn.addEventListener('mouseout', () => btn.classList.remove('nav-hover')));
+navBtn.forEach((btn) => btn.addEventListener('mousedown', () => btn.classList.add('nav-click')));
+navBtn.forEach((btn) => btn.addEventListener('mouseup', () => btn.classList.remove('nav-click')));
 
 moreBtn.addEventListener('mouseover', () => moreBtn.classList.add('hover'));
 moreBtn.addEventListener('mouseout', () => moreBtn.classList.remove('hover'));

@@ -122,8 +122,25 @@ button {
 .nav-button {
     width: 44px;
     height: 44px;
-    background-color: #B1C0C7;
     margin: 40px 25px;
+}
+
+#triangle.nav-hover {
+    border-bottom-color: #bbccd4;
+}
+
+#circle.nav-hover,
+#square.nav-hover {
+    background-color: #bbccd4;
+}
+
+#circle.nav-click,
+#square.nav-click {
+    background-color: #b2c1c9;
+}
+
+#triangle.nav-click {
+    border-bottom-color: #b2c1c9;
 }
 
 .nav-button.square {
