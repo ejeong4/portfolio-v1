@@ -1,5 +1,9 @@
 const artBlock = document.querySelectorAll('.art');
 const projectBlock = document.querySelectorAll('.project');
+const moreBtn = document.querySelector('#more-button');
+
+moreBtn.addEventListener('mouseover', () => moreBtn.classList.add('hover'));
+moreBtn.addEventListener('mouseout', () => moreBtn.classList.remove('hover'));
 
 artBlock.forEach((block) => {
     const artInfo = block.lastElementChild;
