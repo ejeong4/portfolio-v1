@@ -17,15 +17,6 @@
     }
 }
 
-@keyframes fade-out {
-    0% {
-        opacity: 100%;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
 @keyframes slide-down {
     0% {
         top: -80px;
@@ -95,6 +86,9 @@ button {
     font-size: 24px;
 }
 
+
+/* nav bar */
+
 .navbar {
     text-align: right;
     width: auto;
@@ -151,11 +145,17 @@ button {
     margin-right: 100px;
 }
 
+
+/* welcome page */
+
 .welcome-pg {
     display: flex;
     flex-direction: column;
     margin: 220px 0 120px 0;
 }
+
+
+/* all pages */
 
 .about-me-pg,
 .projects-pg,
@@ -171,6 +171,9 @@ button {
     flex-direction: row;
 }
 
+
+/* projects page */
+
 .project {
     width: 300px;
     height: 300px;
@@ -178,7 +181,45 @@ button {
     border: 4px solid #B1C0C7;
     border-radius: 40px;
     box-shadow: 0 20px #EDEDE8;
+    font-family: "Glacial", serif;
+    font-size: 22px;
+    color: #B1C0C7;
+    text-align: center;
 }
+
+.project-img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 30px;
+    filter: opacity(50%);
+}
+
+.project.right {
+    margin: 0 auto 0 15px;
+}
+
+.project.left {
+    margin: 0 15px 0 auto;
+}
+
+.project-info {
+    padding-top: 40px;
+    width: 300px;
+    height: 104px;
+    background-color: #FBFBF6;
+    border: 4px solid #B1C0C7;
+    border-radius: 40px;
+    display: block;
+    position: relative;
+    bottom: 150px;
+    right: 4px;
+    animation: fade-in 0.5s;
+}
+
+
+/* art page */
 
 .art {
     width: 250px;
@@ -194,7 +235,16 @@ button {
     text-align: center;
 }
 
-.art .art-info {
+.art-img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 30px;
+    filter: opacity(30%);
+}
+
+.art-info {
     padding-top: 30px;
     width: 250px;
     height: 90px;
@@ -208,23 +258,6 @@ button {
     animation: fade-in 0.5s;
 }
 
-.art-img {
-    width: 230px;
-    height: 230px;
-    object-fit: cover;
-    margin: 10px;
-    border-radius: 30px;
-    filter: opacity(30%);
-}
-
-.project.right {
-    margin: 0 auto 0 15px;
-}
-
-.project.left {
-    margin: 0 15px 0 auto;
-}
-
 .art.left {
     margin-left: auto;
 }
@@ -233,6 +266,9 @@ button {
     margin-right: auto;
 }
 
+
+/* more button */
+
 .more {
     font-family: "Glacial", serif;
     font-size: 24px;
@@ -240,6 +276,9 @@ button {
     color: #B1C0C7;
     margin: auto;
 }
+
+
+/* contact page */
 
 .contact-pg {
     margin: 80px auto;
