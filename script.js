@@ -27,7 +27,7 @@ artBlock.forEach((block) => {
 projectBlock.forEach((block) => {
     const info = block.lastElementChild;
     block.addEventListener(('mouseover'), () => {
-        info.innerHTML = `"${block.firstElementChild.firstElementChild.id}"<br>HTML, CSS, Vanilla JS`;
+        info.innerHTML = `"${block.firstElementChild.firstElementChild.id}"<br>HTML, CSS, JS`;
         info.classList.add('project-info');
     });
     block.addEventListener(('mouseout'), () => {
